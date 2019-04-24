@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 05 09:29:13 2019
 
-@author: ravi
-"""
 
 import os
 #os.chdir('C:\\Users\\loecherm\\Dropbox\\Markus\\Teaching\\SS2019\\AnalyticsLab\\Lessons\\')
@@ -160,8 +156,8 @@ def makeCleanCorpus(abspath = os.path.abspath('.') + '\\all-chapters\\',
             with open(abspath+filename, "r", encoding='latin-1') as file:
                 files[filename] = file.read()
         
-            print("Done reading files...\n\n")
-            print('--'*25, '\n')          
+            #print("Done reading file...\n\n")
+            #print('--'*25, '\n')          
                 
         # call the function that cleans up the corpus
         files = cleanUp(files)            
@@ -199,7 +195,7 @@ def makeDTM(corpus, tfidf=False):
         tmat = tvec.fit_transform(corpus.values())
         dtm = pd.DataFrame(tmat.toarray(), 
                            columns=tvec.get_feature_names(), 
-                           index=mycorpus.keys())
+                           index=corpus.keys())
         return(dtm)
 
 # end of function makeDTM
