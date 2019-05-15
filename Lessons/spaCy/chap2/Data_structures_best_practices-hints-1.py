@@ -1,0 +1,1 @@
+print("Take a look at the tokens and pos_tags. Maybe there's a better way to extract the values you're looking for in the \n loop?")

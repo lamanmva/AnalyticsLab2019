@@ -1,0 +1,1 @@
+print("Remember that the text is available as the variable text. \n To get the hash ID for a label, you can look it up in the nlp.vocab.strings.")

@@ -1,0 +1,1 @@
+print("To load a statistical model, call spacy.load with its string name. \n To access a token in a doc, you can index into it. For example, doc[4].")

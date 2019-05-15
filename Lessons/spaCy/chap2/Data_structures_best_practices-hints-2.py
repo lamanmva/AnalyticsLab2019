@@ -1,0 +1,1 @@
+print("Remove the pos_tags – we don't need to compile a list of strings upfront! \n Instead of iterating over the pos_tags, loop over each token in the doc and check the token.pos_ attribute. \n To check if the next token is a verb, take a look at doc[token.i + 1].pos_.")

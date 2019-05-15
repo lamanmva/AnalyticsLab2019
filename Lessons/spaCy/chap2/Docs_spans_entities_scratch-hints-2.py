@@ -1,0 +1,1 @@
+print("The Span class takes four arguments: the reference doc, the start token index, the end token index and an optional \n label. \n To get the ID for a string, you can look it up in the nlp.vocab.strings dictionary. For example, \n nlp.vocab.strings['unicorn'] will return the hash ID for the string 'unicorn'.")

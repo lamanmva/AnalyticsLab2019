@@ -1,0 +1,1 @@
+print("The Doc is initialized with three arguments: the shared vocab, e.g. nlp.vocab, a list of words and a list of boolean values indicating whether the word should be followed by a space.")

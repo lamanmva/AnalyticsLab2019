@@ -1,0 +1,1 @@
+print("The doc.ents property is writable, so you can assign it any iterable consisting of Span objects.")

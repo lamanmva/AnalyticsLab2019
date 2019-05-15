@@ -1,0 +1,1 @@
+print("The Doc class takes 3 arguments: the shared vocabulary, usually nlp.vocab, a list of words and a list of spaces, \n boolean values, indicating whether the word is followed by a space or not.")

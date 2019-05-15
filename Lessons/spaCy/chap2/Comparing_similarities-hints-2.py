@@ -1,0 +1,1 @@
+print("The token.similarity method takes one argument: the other object to compare the current object to.")

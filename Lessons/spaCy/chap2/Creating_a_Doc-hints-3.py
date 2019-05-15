@@ -1,0 +1,1 @@
+print("Pay attention to the individual tokens. To see how spaCy usually tokenizes that string, you can try it out in Jupyter Notebook and print the tokens for nlp('Oh, really?!').")

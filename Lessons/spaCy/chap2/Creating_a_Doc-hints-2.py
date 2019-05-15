@@ -1,0 +1,1 @@
+print("Look at each word in the desired text output and check if it's followed by a space. If so, the spaces value should be True. If not, it should be False.")

@@ -1,0 +1,1 @@
+print("You can use the string store in nlp.vocab.strings like a regular Python dictionary. \n For example, nlp.vocab.strings['unicorn'] will return the hash, and looking up the hash again will return the string 'unicorn'.")

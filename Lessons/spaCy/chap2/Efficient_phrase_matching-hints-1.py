@@ -1,0 +1,1 @@
+print("The shared vocab is available as nlp.vocab.")
