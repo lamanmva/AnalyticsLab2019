@@ -1,0 +1,1 @@
+print("The correct answer is: A \n Hashes can't be reversed. To prevent this problem, add the word to the new vocab by processing a text or looking up the string, or use the same vocab to resolve the hash back to a string.")
