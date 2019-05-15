@@ -1,0 +1,1 @@
+print("Creating a slice of a Doc works just like creating a slice of a list in Python using the : notation. Remember that \n the last token index is exclusive – for example, 0:4 describes the tokens 0 up to token 4, but not including \n token 4.")

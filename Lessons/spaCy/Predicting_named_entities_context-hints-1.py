@@ -1,0 +1,1 @@
+print("To create a doc, call the nlp object on the text. Named entities are available as the doc.ents property.")

@@ -1,0 +1,1 @@
+print("To get the token at a certain index, you can index into the doc. For example, doc[5] is the token at index 5.")

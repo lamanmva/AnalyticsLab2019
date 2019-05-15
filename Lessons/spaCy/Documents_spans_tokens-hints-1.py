@@ -1,0 +1,1 @@
+print("You can index into a Doc the same way you index into a list in Python. For example, doc[4] will give you the token at index 4, which is the fifth token in the text. Remember that in Python the first index is 0, not 1.")

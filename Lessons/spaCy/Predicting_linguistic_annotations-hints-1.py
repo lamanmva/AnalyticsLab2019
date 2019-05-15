@@ -1,0 +1,1 @@
+print("To create a doc, call the nlp object on a string of text. Remember that you need to use the token attribute names \n with an underscore to get the string values.")

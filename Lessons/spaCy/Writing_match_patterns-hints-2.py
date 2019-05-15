@@ -1,0 +1,2 @@
+print("To specify a lemma, you can use the 'LEMMA' attribute in the token pattern. For example, {'LEMMA': 'be'} will match \n tokens like \"is\", \"was\" or \"being\".")
+print("To find proper nouns, you want to match all tokens whose POS value equals 'PROPN'.")

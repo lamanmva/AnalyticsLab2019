@@ -1,0 +1,2 @@
+print("To match a token with an exact text, you can use the TEXT attribute. For example, {'TEXT': 'Apple'} will match tokens with the exact text \"Apple\".")
+print("To match a number token, you can use the IS_DIGIT attribute, which will only return True for tokens consisting of \n only digits.")

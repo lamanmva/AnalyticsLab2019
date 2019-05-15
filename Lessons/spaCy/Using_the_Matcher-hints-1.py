@@ -1,0 +1,1 @@
+print("The shared vocabulary is available as the nlp.vocab attribute.")

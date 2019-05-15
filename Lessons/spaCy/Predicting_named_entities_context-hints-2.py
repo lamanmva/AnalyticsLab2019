@@ -1,0 +1,1 @@
+print("The easiest way to create a Span object is to use the slice notation – for example doc[5:10] for the token at \n position 5 up to position 10. Remember that the last token index is exclusive.")
