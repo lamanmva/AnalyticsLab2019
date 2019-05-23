@@ -13,28 +13,36 @@ from keras.layers import Dense
 from keras.layers import Flatten
 from keras.layers.embeddings import Embedding
 
-# define documents
-docs = ['Well done!',
-        'Good work',
-        'Great effort',
-        'nice work',
-        'Excellent!',
-        'Weak',
-        'Poor effort!',
-        'not good',
-        'poor work',
-        'Could have done better.']
+# define documents and sentiments
+# open the file 'school_q7_train.txt' and 
+# read in all the lines
 
-# define class labels
-labels = [1,1,1,1,1,0,0,0,0,0]
+
+
+# good to do strip leading, training white space from lines (optional)
+ 
+
+# now extract the content and the sentiment ('pos' or 'neg'):
+
+
+# now separate the reponse and the sentiment ('pos' or 'neg')
+# into two lists called docs and sentiment respectively
+
+
+# finally, create a list called labels,
+# with code 'pos' as 1 and 'neg' as 0
+
+
+# done preparing the data
+
 
 # integer encode the documents
-vocab_size = 50
+vocab_size = 5000  # just a large number!
 encoded_docs = [one_hot(d, vocab_size) for d in docs]
 print(encoded_docs)
 
 # pad documents to a max length of 4 words
-max_length = 4  # could have been larger!
+max_length = 40  # guessed this 
 padded_docs = pad_sequences(encoded_docs, maxlen=max_length, padding='post')
 print(padded_docs)
 
@@ -70,9 +78,34 @@ print('Accuracy: %f' % (accuracy*100))
 
 ###################################################################
 
+# but now predict on the test data!
+
+# read in the lines in the 'school_q7.txt' file into a list
 
 
+# good to do strip leading, training white space from lines (optional) 
 
+
+# done reading in content
+
+vocab_size = 5000
+encoded_docs2 = [one_hot(d, vocab_size) for d in docs2]
+print(encoded_docs2)
+
+# pad documents to a max length of 4 words
+max_length = 40  # guessed this 
+padded_docs2 = pad_sequences(encoded_docs2, maxlen=max_length, padding='post')
+print(padded_docs2)
+
+pred = model.predict_classes(padded_docs2)
+pred
+
+# now count the zeros and ones (negative and positive sentiments):
+
+
+# so more respondents expressed a positive sentiment than negative
+
+#########################################################
 
 
 

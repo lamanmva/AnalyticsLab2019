@@ -1,0 +1,34 @@
+It was a good experience.,pos
+Good process.,pos
+The admission process was Ok without problems.,pos
+Entire process was a good learning experience.,pos
+Experience for admission of my kid was good and smooth.,pos
+Smooth experience and faced no problems in the process although had no reference in the school.,pos
+it was a smooth process not many hurdles in the process.,pos
+Good without any difficulties.,pos
+Quick and systematic procedure.,pos
+School was new so the experience was quite effortless.,pos
+The process was simple.,pos
+The process was smooth and my overall experience was good.,pos
+Simple procedure.,pos
+A rigorous process which was very structured.,pos
+It was easy not much of a hassle.,pos
+Good staff was helpful and approachable and there was no problem as such.,pos
+The admission process is unfair and leads to inequality in access to education.,neg
+It is difficult for a business man to leave his business and stand in line for admissions.,neg
+Educated crowd gets admissions very easily but difficult for people like us to get admissions.,neg
+Admission is tough.,neg
+Time consuming selection process.,neg
+Tiresome procedure.,neg
+We did not know the process has become so difficult and tedious.,neg
+The process was tedious and long required too many formalities.,neg
+Money plays an important factor in the admission process.,neg
+Asking for donation in a fraudulent way.,neg
+Donation should be prohibited.,neg
+Document submission was dificult.,neg
+process is difficult to comprehend.,neg
+Tedious admission procedure and lots of competition.,neg
+Administration is not very helpful.,neg
+Some school faculty are rude change in attitude and professionalism is needed.,neg
+It was a tedious process wherein even the parents were interviewed.,neg
+School fees are a bit high.,neg
